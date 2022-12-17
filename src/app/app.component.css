@@ -1,0 +1,597 @@
+/* FULL PAGE CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.right_part{
+    float: right;
+    width: 48%;
+}
+
+/* p,h4,.social-icon.second a.whatsapp,
+.login-comment_box .logged-in-as a,
+.job_role ul li,
+.learning ol li,
+.agenda .agenda_inner .day_new h2,
+.agenda .agenda_inner .day_new .infrastructure .left_part span,
+.agenda .agenda_inner .day_new .infrastructure .right_part p,
+.registration_cta p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #676c75;
+  line-height: 30px;
+  margin-bottom: 20px;
+} */
+p, h4 , .social-icon .second a .whatsapp{
+  font-size: 18px;
+  font-weight: 400;
+  color: #676c75;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}  
+a, span {
+    display: inline-block;
+}
+.center_text {
+    text-align: center;
+}
+.main-page {
+    display: block;
+} 
+.social-icon a.whatsapp {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    line-height: 17px;
+    padding: 10px 40px;
+    background: url(https://drie.co/wp-content/themes/drie/images/watsup.png) 10px center no-repeat #67c15e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.social-icon a {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #15b49b;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+}  
+.social-icon a img {
+    vertical-align: middle;
+    padding: 8px;
+}
+.btn_com {
+    border: none !important;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 15px 60px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #35bea9;
+    border-radius: 40px;
+    text-decoration: none;
+    position: relative;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+  
+
+
+
+
+/* HEADER CSS */
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 75px;
+    float: left;
+    margin-top: 5px;
+}  
+header .right_part {
+    width: calc(100% - 75px);
+    float: right;
+    text-align: right;
+}
+header .right_part nav {
+    display: inline-block;
+}  
+header .right_part nav ul {
+    list-style: none;
+}
+header .right_part nav ul li {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    padding: 14px 18px;
+    position: relative;
+}
+header .right_part nav ul li a {
+    color: #292929;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    font-size: 14px;
+}
+header nav ul li.menu-item-has-children {
+    background: url(https://drie.co/wp-content/themes/drie/images/down-arrow.png) right center no-repeat;
+}
+header nav ul li.menu-item-has-children ul {
+    display: none;
+    position: absolute;
+    background: #026f5e;
+    border-top: 8px solid #fcb040;
+    top: 45px;
+    left: 0;
+    box-shadow: 0 2px 3px #026f5e;
+    border-top: 8px solid #fcb040;
+}  
+header nav ul li.menu-item-has-children ul li {
+    display: block;
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+header nav ul li.menu-item-has-children ul li a {
+    padding: 12px 20px;
+    width: 230px;
+    text-transform: none;
+    text-align: left;
+    color: #ffffff;
+}
+header .sticky {
+    background: #fff;
+    box-shadow: 0px 10px 12px 0px rgb(0 0 0 / 20%);
+    z-index: 999;
+}
+.mobile_menu {
+    display: none;
+}
+header .right_part {
+    text-align: right;
+}
+.social-icon a.whatsapp {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    line-height: 17px;
+    padding: 10px 40px;
+    background: url(https://drie.co/wp-content/themes/drie/images/watsup.png) 10px center no-repeat #67c15e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 20px;
+}  
+.social-icon a {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #15b49b;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+}  
+.social-icon a img {
+    vertical-align: middle;  
+    max-width: 100%;
+    height: auto;
+}  
+.latest_news {
+    width: 100%;
+    float: left;
+    padding: 60px 0;
+}
+
+
+.sub-menu{display: none;
+    position: absolute;
+    background: #026f5e;
+    border-top: 8px solid #fcb040;
+    top: 45px;
+    left: 0;
+    box-shadow: 0 2px 3px #026f5e;
+    border-top: 8px solid #fcb040;
+}
+
+#menu-top-menu  li:hover ul{
+    display: block;
+}
+
+/* .menu > li:hover > .sub-menu{display: inline-block;} */
+
+/* header[_ngcontent-yxo-c17] .right_part[_ngcontent-yxo-c17] {
+   
+} */
+.right_part{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/* MAIN BODY CSS */
+
+
+
+/* ..MAIN BANNER CSS.. */
+
+.main_banneer {
+  background: url(https://drie.co/wp-content/uploads/2020/05/main-banner-1.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  margin-top: 97px;
+}
+
+.main_banneer .inner_box {
+  width: 100%;
+  float: left;
+  margin: 70px 0;
+}
+
+.main_banneer .inner_box .text {
+  max-width: 760px;
+  background-color: #292929;
+  padding: 50px;
+}
+
+.main_banneer .inner_box .text h1 {
+  margin-bottom: 10px;
+  font-size: 60px;
+  line-height: 70px;
+  color: #35bea9;
+}
+
+.main_banneer .inner_box .text h4 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.main_banneer .inner_box .text p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+::ng-deep .a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*.. OUR CLIENT CSS.. */
+
+.our_client {
+  width: 100%;
+  float: left;
+  padding: 60px 0;
+}
+.our_client h2 {
+    color: #35bea9;
+    font-weight: 600;
+    font-size: 41px;
+} 
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #676c75;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.our_client .inner_box {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10px 0;
+}
+.our_client .inner_box .card {
+    width: 23%;
+    min-height: 365px;
+    margin-bottom: 20px;
+}
+.our_client .inner_box .card .top_img {
+    text-align: center;
+    box-shadow: 0 6px 18px #ccc;
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.our_client .inner_box .card .text h4 {
+    margin-bottom: 0px;
+    color: #292929;
+}
+
+/* OUR SERVICES CSS */
+
+.our_services {
+    width: 100%;
+    padding: 60px 0;
+    background: url(https://drie.co/wp-content/themes/drie/images/services_banner.png) center center no-repeat;
+    float: left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.our_services h2 {
+    color: #ffffff;
+}
+.our_services p {
+    color: #ffffff;
+}
+.our_services .inner-content {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.our_services .inner-content .card {
+    width: 32%;
+    background-color: #ffffff;
+    padding: 60px 35px 40px;
+    position: relative;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.our_services .inner-content .card img {
+    margin-bottom: 10px;
+}
+.our_services .inner-content .card h4 {
+    color: #292929;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.our_services .inner-content .card p {
+    color: #676c75;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+.our_services .inner-content .card a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    color: #35bea9;
+    text-decoration: none;
+}
+.our_services .inner-content .card img {
+    margin-bottom: 10px;
+}
+
+
+/* OUR PARTNER CSS */
+
+.our_partners {
+    width: 100%;
+    float: left;
+    padding: 60px 0;
+}
+
+h2,.registration_cta h3,
+.registration_cta h2 {
+  font-size: 41px !important;
+  font-weight: 400 !important;
+  color: #35bea9;
+  line-height: 47px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #676c75;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.our_partners ul {
+  list-style: none;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our_partners ul li {
+  width: 23%;
+  text-align: center;
+}
+
+
+/* LATEST NEWS */
+
+.latest_news h2 {
+    display: inline-block;
+    float: left;
+    color: #35bea9;
+}
+.latest_news span {
+    color: #676c75;
+    margin-bottom: 10px;
+    display: inline-block;
+    float: right;
+}
+.latest_news .inner_text {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.latest_news .inner_text .left_part {
+    width: 49%;
+    float: left;
+}
+.latest_news .inner_text .right_part {
+    width: 48%;
+    float: right;
+} 
+.btn_box {
+    margin: 20px 0;
+    width: 100%;
+    float: left;
+}
+h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #35bea9;
+    line-height: 47px;
+    margin-bottom: 20px;
+}
+.latest_news .inner_text .right_part span {
+    display: block;
+    width: 100%;
+}
+.latest_news span {
+    color: #676c75;
+    margin-bottom: 10px;
+    display: inline-block;
+    float: right;
+}
+img .latest_news span {
+  color: #676c75;
+  margin-bottom: 10px;
+  display: inline-block;
+  float: right;
+}
+
+p,h4,.social-icon.second a.whatsapp,
+.login-comment_box .logged-in-as a,
+.job_role ul li,
+.learning ol li,
+.agenda .agenda_inner .day_new h2,
+.agenda .agenda_inner .day_new .infrastructure .left_part span,
+.agenda .agenda_inner .day_new .infrastructure .right_part p,
+.registration_cta p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #676c75;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.btn_box {
+  margin: 20px 0;
+  width: 100%;
+  float: left;
+}
+
+/* CTA CSS  */
+
+.cta {
+    width: 100%;
+    float: left;
+    background: #ea9d41;
+    padding: 60px 0px;
+}
+.cta h2 {
+    width: 75%;
+    color: #ffffff;
+    float: left;
+    margin: 0px;
+}
+.cta span {
+    float: right;
+    margin-top: 22px;
+}
+.cta span .btn_com {
+    background: #fff;
+    color: #35bea9;
+}
+
+
+/* FOOTER CSS */
+
+footer {
+    width: 100%;
+    float: left;
+    padding: 40px 25px 20px;
+}
+footer .logo {
+    width: 28%;
+    float: left;
+}
+footer .footer-right {
+    width: 72%;
+    float: right;
+}
+footer .footer-right nav {
+    width: 55%;
+    float: left;
+    text-align: center;
+}
+footer .footer-right .social-icon {
+    float: right;
+    padding-left: 0;
+}
+footer .footer-bottom {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+footer .footer-bottom span {
+    padding: 0 5px;
+}
+footer .footer-bottom span a {
+    font-size: 14px;
+    color: #676c75;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+}
+footer .footer-right nav ul {
+    padding: 10px 0;
+    line-height: 0;
+}
+footer .footer-right nav ul li {
+    display: inline-block;
+    line-height: 0;
+    font-family: "Roboto", sans-serif;
+    border-right: 1px solid #676c75;
+}
+footer .footer-right nav ul li a {
+    font-size: 14px;
+    color: #676c75;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px;
+}
